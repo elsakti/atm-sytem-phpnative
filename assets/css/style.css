@@ -1,0 +1,82 @@
+/* Body styles */
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    min-height: 100vh; /* Ensures full viewport height */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+  }
+  
+  /* Container styles */
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px; /* Sets a maximum width for responsiveness */
+    margin: 0 auto; /* Centers the container horizontally */
+  }
+  
+  /* Login title styles */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    width: 100%; /* Stretches form to container width */
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input field styles */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Alert styles */
+  .alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Alert danger styles (red) */
+  .alert-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
